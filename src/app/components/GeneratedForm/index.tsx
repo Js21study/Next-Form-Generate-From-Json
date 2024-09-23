@@ -1,0 +1,1 @@
+export { GeneratedForm } from './GeneratedForm';

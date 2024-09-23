@@ -1,0 +1,92 @@
+[
+  {
+    "name": "name",
+    "default_value": "Alice",
+    "type": "text",
+    "validation": "^[A-Za-z]+$",
+    "min_value": null,
+    "max_value": null,
+    "options": []
+  },
+  {
+    "name": "age",
+    "default_value": 25,
+    "type": "number",
+    "min_value": 1,
+    "max_value": 100,
+    "validation": null,
+    "options": []
+  },
+  {
+    "name": "color",
+    "default_value": "Blue",
+    "type": "dropdown",
+    "options": ["Red", "Blue", "Green", "Yellow"]
+  },
+  {
+    "name": "description",
+    "default_value": "This is a long text field.",
+    "type": "longtext",
+    "validation": ".{10,}",
+    "min_value": null,
+    "max_value": null,
+    "options": []
+  },
+  {
+    "name": "email",
+    "default_value": "user@example.com",
+    "type": "text",
+    "validation": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+    "min_value": null,
+    "max_value": null,
+    "options": []
+  },
+  {
+    "name": "percentage",
+    "default_value": 50,
+    "type": "number",
+    "min_value": 0,
+    "max_value": 100,
+    "validation": null,
+    "options": []
+  },
+  {
+    "name": "option",
+    "default_value": "Option A",
+    "type": "dropdown",
+    "options": ["Option A", "Option B", "Option C", "Option D"]
+  },
+  {
+    "name": "password",
+    "default_value": "Hello123",
+    "type": "text",
+    "validation": "^(?=.*[0-9])(?=.*[A-Za-z]).{6,}$",
+    "min_value": null,
+    "max_value": null,
+    "options": []
+  },
+  {
+    "name": "quantity",
+    "default_value": 10,
+    "type": "number",
+    "min_value": 5,
+    "max_value": 15,
+    "validation": null,
+    "options": []
+  },
+  {
+    "name": "preference",
+    "default_value": "Select your preference",
+    "type": "dropdown",
+    "options": ["Preference 1", "Preference 2", "Preference 3"]
+  },
+  {
+    "name": "comments",
+    "default_value": "",
+    "type": "longtext",
+    "validation": "^(?!\\s*$).+",
+    "min_value": null,
+    "max_value": null,
+    "options": []
+  }
+]

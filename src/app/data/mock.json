@@ -1,0 +1,26 @@
+[
+  {
+    "name": "firstName",
+    "default_value": "John",
+    "type": "text",
+    "validation": "^[A-Za-z]+$",
+    "min_value": null,
+    "max_value": null,
+    "options": []
+  },
+  {
+    "name": "age",
+    "default_value": 18,
+    "type": "number",
+    "min_value": 1,
+    "max_value": 29,
+    "validation": null,
+    "options": []
+  },
+  {
+    "name": "selection",
+    "default_value": "Option 1",
+    "type": "dropdown",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  }
+]
